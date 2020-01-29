@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text_view_symbols"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginEnd="@dimen/text_margin"
+                android:gravity="center"
+                android:text="@string/text_view_label_symbols"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="16sp"
+                tools:text="BTC / ETH" />
+
+            <TextView
+                android:id="@+id/text_view_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginEnd="@dimen/text_margin"
+                android:gravity="center"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="24sp"
+                tools:text="100000 р" />
+
+            <TextView
+                android:id="@+id/text_view_last_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:gravity="end"
+                android:text="@string/last_update_label_with_placeholder"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="14sp"
+                tools:text="Последнее обновление: 12 сентября" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_view_logo_coin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/logo_coins_description" />
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

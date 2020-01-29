@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Crypto Currency</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="period_of_refreshing_label">Период обновления: %s с.</string>
+    <string name="text_view_label_symbols">%s / %s</string>
+    <string name="last_update_label_with_placeholder">Время последнего обновления: %s</string>
+    <string name="last_update_label">Обновлено:</string>
+    <string name="logo_coins_description">Logo coins</string>
+    <string name="label_price">Цена:</string>
+    <string name="label_min_day">Минимум за день:</string>
+    <string name="label_max_day">Максимум за день:</string>
+    <string name="label_market">Последняя сделка:</string>
+</resources>
